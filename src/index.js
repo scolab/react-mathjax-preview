@@ -59,17 +59,17 @@ export default class extends Component {
 
   render() {
     return (
-      <div
+      <span
         className={this.props.className}
         id='react-mathjax-preview'
         style={this.props.style}
       >
-        <div
+        <span
           id='react-mathjax-preview-result'
           ref={(node) => {this.preview = node}}
         >
-        </div>
-      </div>
+        </span>
+      </span>
     )
   }
 }

@@ -1,6 +1,6 @@
 {
-  "name": "react-mathjax-preview",
-  "version": "0.1.9",
+  "name": "@scolab/react-mathjax-preview",
+  "version": "0.0.1",
   "description": "The MathJax React component you were looking for.",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -22,12 +22,12 @@
     "load-script": "^1.0.0"
   },
   "peerDependencies": {
-    "react": "15.x"
+    "react": "^16.3.x"
   },
   "devDependencies": {
     "nwb": "0.18.x",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0"
   },
   "author": "Mehdi Sadeghi",
   "homepage": "https://github.com/mehdisadeghi/react-mathjax-preview",
